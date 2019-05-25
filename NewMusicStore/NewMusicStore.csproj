@@ -1,0 +1,38 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <UserSecretsId>aspnet-NewMusicStore-444F8A00-40A8-4FBC-8576-EF616A0960D7</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.1.2" PrivateAssets="All" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.1.9" />
+    <PackageReference Include="MongoDB.Driver" Version="2.8.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Update="Views\SportsMusics\Create.cshtml">
+      <Pack>$(IncludeRazorContentInPack)</Pack>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="Views\SportsMusics\Delete.cshtml">
+      <Pack>$(IncludeRazorContentInPack)</Pack>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="Views\SportsMusics\Details.cshtml">
+      <Pack>$(IncludeRazorContentInPack)</Pack>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="Views\SportsMusics\Edit.cshtml">
+      <Pack>$(IncludeRazorContentInPack)</Pack>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="Views\SportsMusics\Index.cshtml">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <Pack>$(IncludeRazorContentInPack)</Pack>
+    </Content>
+  </ItemGroup>
+
+</Project>
